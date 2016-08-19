@@ -1,4 +1,5 @@
-# DesignPatterns
-学习设计模式的代码
+# 观察者模式
 
-具体的每个模式可在分支中查看
+ObserverPattern是HEADFIRST中天气布告牌的实现，包含天气的实时查询，调用了和风天气的api。
+
+ObserverPattern2是改进版，WeatherData类可以主动向布告牌推送信息，布告牌也可以向其索取具体的信息。
